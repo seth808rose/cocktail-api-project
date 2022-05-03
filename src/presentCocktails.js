@@ -8,6 +8,9 @@ const presentCocktails = async (url) => {
 
   //   waiting for the displayCocktails function
   const section = await displayCocktails(data);
+  if (section) {
+    setCocktails(section);
+  }
 };
 
 export default presentCocktails;

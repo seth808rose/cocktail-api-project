@@ -1,8 +1,8 @@
 const setCocktails = (section) => {
-  section.addEventListener("click", (e) => {
-    preventDefault();
+  section.addEventListener("click", function (e) {
+    // e.preventDefault();
     const id = e.target.parentElement.dataset.id;
-    localStorage.setItem("cocktails", id);
+    localStorage.setItem("drink", id);
   });
 };
 
