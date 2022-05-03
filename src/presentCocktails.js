@@ -1,5 +1,6 @@
 import fetchCocktails from "./fetchCocktails.js";
 import displayCocktails from "./displayCocktails.js";
+import setCocktails from "./setCocktails.js";
 
 const presentCocktails = async (url) => {
   // waiting for the fetchCocktails function
