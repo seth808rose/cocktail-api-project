@@ -30,6 +30,10 @@ h2 {
   margin-top: 0.5rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 .input-form {
   font-size: 0.9rem;
   border: none;
